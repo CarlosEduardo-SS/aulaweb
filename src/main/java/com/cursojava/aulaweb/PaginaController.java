@@ -6,18 +6,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PaginaController {
     
-    @GetMapping("/exemplo")
-    public String exemplo() {
-        return "exemplo";
+    @GetMapping("/sobre")
+    public String sobre() {
+        return "sobre";
     }
 
-    @GetMapping("/ola")
-    public String ola() {
-        return "ola";
+     @GetMapping("/contato")
+    public String contato() {
+        return "contato";
+    }
+
+     @GetMapping("/ajuda")
+    public String ajuda() {
+        return "ajuda";
     }
 
     @GetMapping("/")
-    public String homePage() {
-        return "home_page";
+    public String Index() {
+        return "index";
     }
 }
