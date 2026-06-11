@@ -10,4 +10,6 @@ public class AulawebApplication {
 		SpringApplication.run(AulawebApplication.class, args);
 	}
 
+	//O erro 404 que aparece não quer dizer que não está funcionando, apenas mostra esse erro pois não tem nenhuma rota configurada corretamente, sendo assim ele mostra o erro 404. 
+	//O erro 404 aparece em algumas páginas por conta do uso do @ResponseBody, caso não esteja usando ele irá aparecer a mesnagem, pois quando sem, ele busca uma rota html.
 }
