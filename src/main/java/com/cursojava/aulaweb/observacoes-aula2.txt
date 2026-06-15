@@ -1,0 +1,4 @@
+Rotas existentes = rodam pois há uma rota e um conteúdo a ser mostrado
+Rotas inexistente = também roda, porém mostra o erro 404 pois não há uma rota e nem cointeúdo a ser mostrado no endereço digitado
+
+9- O Spring Boot não permite duas rotas iguais porque isso causa uma "confusão", por isso quando o programa é acionado ele não sabe qual método deve executar e da erro
