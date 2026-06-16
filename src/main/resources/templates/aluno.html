@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Perfil</title>
+    <title>Aluno</title>
   </head>
   <body>
-    <h1>Perfil do usuário</h1>
+    <h1>Perfil do aluno</h1>
 
+    <p th:text="${message}"></p>
     <p>Nome: <span th:text="${nome}"></span></p>
     <p>Idade: <span th:text="${idade}"></span></p>
-    <p>Curso: <span th:text="${curso}"></span></p>
+    <p>Turma: <span th:text="${turma}"></span></p>
   </body>
 </html>
