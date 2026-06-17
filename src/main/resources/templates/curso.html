@@ -1,0 +1,16 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Curso</title>
+  </head>
+  <body>
+    <h1>Informações do curso</h1>
+    <p>Curso: <span th:text="${curso}"></span></p>
+    <p>Carga horaria: <span th:text="${cargaHoraria}"></span></p>
+    <p>Tecnologia principal usada: <span th:text="${tecnologia}"></span></p>
+    <a href="/">Página inicial</a>
+    <br />
+    <a href="/perfil">Perfil do aluno</a>
+  </body>
+</html>
